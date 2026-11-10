@@ -7,6 +7,9 @@ import pandas as pd
 import requests
 import snowflake.connector
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()  # reads variables from a local .env file if present
 
 # ----------------------------------------------------------------------------
 # Config (from the Power BI screenshot). Override with environment variables.
